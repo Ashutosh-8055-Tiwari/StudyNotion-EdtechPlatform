@@ -82,7 +82,7 @@ export const fetchCourseCategories = async () => {
     result = response?.data?.data;
   } catch (error) {
     console.log("COURSE_CATEGORY_API API ERROR............", error);
-    toast.error(error?.response?.data?.message);
+    // toast.error(error?.response?.data?.message);
   }
   return result;
 };
